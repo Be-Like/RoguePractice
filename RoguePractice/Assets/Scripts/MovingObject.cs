@@ -36,7 +36,6 @@ public abstract class MovingObject : MonoBehaviour
 
         return false;
 
-
     }
 
     protected virtual void AttemptMove<T> (int xDir, int yDir)
